@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div name="top" class="w-full flex items-center h-screen place-content-center">
+        <div name="top" class="w-full flex items-center place-content-center h-fit">
             <div class="text-black py-20 px-10 drop-shadow-4xl md:text-left text-center">
                 <img src="instahd.png" className='border-8 border-green-800 border-double rounded-full my-5 object-center mx-auto md:mx-0 transition-all duration-300 h-60 md:h-40'/>
                 <div class="text-white font-oswald text-2xl lg:text-4xl md:text-3x">Hi, my name is</div>

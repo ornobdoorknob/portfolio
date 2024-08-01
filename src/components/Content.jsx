@@ -3,12 +3,12 @@ import React from 'react'
 const Content = () => {
     return (
         <div class = "w-full">
-            <div class = "border-green-400 border-y-4">
-                <a name ="skills"></a>
+            <a name ="skills"></a>
+            <div class = "snap-y">
              <div name="skill" class="pt-10 font-oswald text-4xl text-green-400 font-extrabold text-center">
                     Skills
             </div>
-            <div class="bg-black py-10 flex items-center justify-center min-h-auto container mx-auto w-full">
+            <div class="bg-black py-10 flex items-center justify-center container mx-auto w-full">
                 <div class="font-poppins grid cols-4 md:grid-cols-4 spy-10m: grid-cols-2">
                     <div class="my-5 rounded-xl text-white mx-5">
                         <div class="p-5 flex flex-col">
@@ -73,11 +73,11 @@ const Content = () => {
             </div>
             </div>
             <div class = "align-center hero bg-fixed bg-center">
-            <a name ="projects"></a>
+            <a name ="portfolio"></a>
             <div class="pt-10 font-oswald text-4xl text-green-400 font-extrabold text-center">
                 Projects
             </div>
-            <div class="py-10 flex items-center justify-center min-h-auto container mx-auto w-full text-center p-5 mt-5">
+            <div class="py-10 flex items-center justify-center container mx-auto w-full text-center p-5 mt-5">
                 <div class="font-poppins grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <div class="my-5 border-green-400 border-2 text-white bg-black mx-5">
                         <div class="p-5 flex flex-col">
@@ -117,12 +117,13 @@ const Content = () => {
                                 <span class="border-green-400 border-2 text-white text-xs mr-2 px-2.5 py-0.5 rounded-full">ViteJS</span>
                             </div>
                             <div class="font-poppins text-xs text-zinc-300 my-1">Responsive website built using a mobile-first approach utilizing TailwindCSS as framework for utilies, ReactJS for dynamic components and ViteJS for production optimization.</div>
-                            <a target="_blank" href="https://github.com/ornobdoorknob/website" class="transition-all duration-300 text-center py-2 border-2 bg-primary hover:bg-white hover:text-black">View GitHub</a>
+                            <a target="_blank" href="https://github.com/ornobdoorknob/portfolio" class="transition-all duration-300 text-center py-2 border-2 bg-primary hover:bg-white hover:text-black">View GitHub</a>
                             </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         </div>
     )
 }

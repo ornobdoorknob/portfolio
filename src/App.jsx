@@ -1,11 +1,15 @@
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Header from './components/Header';
 import Content from './components/Content';
 
 const App = () => (
-  <div class="min-h-screen w-full overflow-hidden bg-primary">
+  <div class="w-full overflow-hidden bg-primary">
+    <div class = "min-h-full">
+      <Header />
     <div class="z-0 hero bg-primary bg-fixed bg-center">
       <Hero />
+    </div>
     </div>
     <div class = "z-10">
       <Content />
