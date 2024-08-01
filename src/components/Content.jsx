@@ -4,7 +4,6 @@ const Content = () => {
     return (
         <div class = "w-full">
             <a name ="skills"></a>
-            <div class = "snap-y">
              <div name="skill" class="pt-10 font-oswald text-4xl text-green-400 font-extrabold text-center">
                     Skills
             </div>
@@ -70,7 +69,6 @@ const Content = () => {
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class = "align-center hero bg-fixed bg-center">
             <a name ="portfolio"></a>
