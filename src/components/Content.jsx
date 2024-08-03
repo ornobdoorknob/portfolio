@@ -118,6 +118,21 @@ const Content = () => {
                             <a target="_blank" href="https://github.com/ornobdoorknob/portfolio" class="transition-all duration-300 text-center py-2 border-2 bg-primary hover:bg-white hover:text-black">View GitHub</a>
                             </div>
                     </div>
+                    <div class="border-green-400 border-2 my-5 text-white bg-black mx-5">
+                        <div class="p-5 flex flex-col">
+                            <div class="border-2 overflow-hidden">
+                                <img src="ecosafe.png"></img>
+                            </div>
+                            <div class="font-oswald text-lg">EcoSafeSense</div>
+                            <div>
+                                <span class="border-green-400 border-2 text-white text-xs mr-2 px-2.5 py-0.5 rounded-full">Dart</span>
+                                <span class="border-green-400 border-2 text-white text-xs mr-2 px-2.5 py-0.5 rounded-full">Flutter</span>
+                                <span class="border-green-400 border-2 text-white text-xs mr-2 px-2.5 py-0.5 rounded-full">Firebase</span>
+                            </div>
+                            <div class="font-poppins text-xs text-zinc-300 my-1">The EcoSafeSense App, built with the Flutter framework in Dart, integrates with air quality sensors and uses Firebase for user authentication and data storage. It provides real-time updates on pollutant levels, temperature, and humidity, with secure access and notifications.</div>
+                            <div class="transition-all duration-300 text-center py-2 border-2 bg-primary">Coming Soon</div>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
