@@ -40,7 +40,7 @@ const ProjectsSection = () => {
   return (
     <div class="align-center hero bg-fixed bg-center">
       <a name="portfolio"></a>
-      <div class="pt-10 font-oswald text-4xl text-green-400 font-extrabold text-center">Projects</div>
+      <div class="pt-10 font-oswald text-4xl text-green-400 font-extrabold text-center">Projects Portfolio</div>
       <div className="py-10 flex items-center justify-center container mx-auto w-full text-center p-5 mt-5">
         <div className="font-poppins grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
